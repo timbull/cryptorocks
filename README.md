@@ -1,2 +1,0 @@
-# cryptorocks
-Playing with Solidarity
