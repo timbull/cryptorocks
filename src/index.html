@@ -16,8 +16,41 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <style>
+      .rps_container {
+        border: 1px solid black;
+        margin:60px;
+        padding: 20px;
+      }
+      img.rps_choice {
+        height:80px;
+        width:80px;
+      }
+    </style>
   </head>
   <body>
+    <h1> RPS </h1>
+    <div class="rps_container">
+      <h2>MAKE YOUR SELECTION:</h2>
+    
+      <a href="#" class="pick" data-id="paper2">
+        <img class="rps_choice" data-id="paper" src='images/paper.png'></img>
+      </a>
+      <a href="#" class="pick" data-id="rock2">
+        <img class="rps_choice" data-id="rock" src='images/rock.png'></img>
+      </a>
+      <a href="#" class="pick" data-id="scissors2">
+        <img class="rps_choice" data-id="scissors" src='images/scissors.png'></img>
+      </a>
+
+      <div id="rps_result">
+      </div>
+    </div>
+
+
+    <h1> PET SHOP TUTORIAL BELOW </h1>
+
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-8 col-sm-push-2">
